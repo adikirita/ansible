@@ -1,3 +1,1 @@
-# ansible
-Ansible repository for my lab
-Welcome!!!
+Welcome to Ansible course!!!
