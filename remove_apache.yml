@@ -1,0 +1,19 @@
+---
+# Remove Nginx on Centos server
+- hosts: 192.168.200.120
+  become: true
+  tasks: 
+
+  - name: Remove Nginx  on Centos server
+    yum:
+      name: nginx
+      state: absent
+
+#Remove Apache2 on Ubuntu server
+- hosts: 192.168.200.153
+  tasks:
+
+  - name: Remove Apache2 on Ubuntu server
+    apt:
+      name: apache2
+      state: absent
